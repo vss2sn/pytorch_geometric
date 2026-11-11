@@ -30,6 +30,7 @@ from .pmlp import PMLP
 from .neural_fingerprint import NeuralFingerprint
 from .visnet import ViSNet
 from .lpformer import LPFormer
+from .ncn import NCNLinkPredictor
 from .sgformer import SGFormer
 
 from .polynormer import Polynormer
@@ -83,6 +84,7 @@ __all__ = classes = [
     'NeuralFingerprint',
     'ViSNet',
     'LPFormer',
+    'NCNLinkPredictor',
     'SGFormer',
     'Polynormer',
     'ARLinkPredictor',
